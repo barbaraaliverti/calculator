@@ -28,7 +28,7 @@ class App extends React.Component {
 			
 			currentExpression: 
 			// eslint-disable-next-line eqeqeq
-			((/^[X%*\/+]$/).test(this.state.currentExpression) || this.state.currentExpression == 0) ?
+			((/^[X%*/+]$/).test(this.state.currentExpression) || this.state.currentExpression == 0) ?
 			e	: this.state.currentExpression.concat(e)
 		});
 	}
@@ -63,9 +63,9 @@ class App extends React.Component {
 	handleResult() {
 		this.setState({
 			// eslint-disable-next-line no-eval
-			currentNumber: eval(this.state.currentExpression.replace(/X/g, '*').replace(/%/g, "/100").replace(/[\/*-+]$/,"")).toString(),
+			currentNumber: eval(this.state.currentExpression.replace(/X/g, '*').replace(/%/g, "/100").replace(/[/*-+]$/,"")).toString(),
 			// eslint-disable-next-line no-eval
-			currentExpression: eval(this.state.currentExpression.replace(/X/g, '*').replace(/%/g, "/100").replace(/[\/*-+]$/,"")).toString()
+			currentExpression: eval(this.state.currentExpression.replace(/X/g, '*').replace(/%/g, "/100").replace(/[/*-+]$/,"")).toString()
 		});
 	}	
 	
