@@ -26,7 +26,7 @@ Build a functional calculator using JavaScript and a front-end framework. The us
 
 ### Screenshot
 
-COLOCAR DPEOIS
+![image](https://user-images.githubusercontent.com/64551613/120126170-c1c0f880-c191-11eb-90b3-f55aa423dfaf.png)
 
 ### Links
 
