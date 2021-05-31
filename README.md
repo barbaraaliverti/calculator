@@ -1,4 +1,4 @@
-# Pomodoro Clock
+# Calculator
 
 This is a solution to the [Calculator](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator) challenge. [FreeCodeCamp](https://www.freecodecamp.org/) is a platform to to help people learn to code for free.
 
