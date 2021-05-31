@@ -74,7 +74,7 @@ class App extends React.Component {
 			<div id="container" className="d-flex">
 				<div id="title">
 					<h4>a calculator</h4>						
-					<a id="contact" href="github.com/barbaraaliverti" target="_blank">by baloobali</a>
+					<p>coded by <a id="contact" href="https://github.com/barbaraaliverti" target="_blank" rel="noreferrer">bárbara aliverti</a></p>
 				</div>
 				<div id="calculator" className="row d-flex">
 					<Display
